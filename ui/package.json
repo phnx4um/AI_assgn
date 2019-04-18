@@ -1,0 +1,19 @@
+{
+  "name": "n_server",
+  "version": "1.0.0",
+  "description": "server to host the model we trained",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "model",
+    "tensorflow",
+    "aiProject"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}

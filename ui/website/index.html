@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@0.13.3/dist/tf.min.js"> </script>
+
+    <title>PREDICT</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+  </head>
+  <body>
+
+	<main>
+    <div class="container mt-50">
+	
+	<div class="jumbotron">
+    		<h1> AI PROJECT </h1>      
+    		<h3> Face Shape prediction & Hairstyle Recommendation</h3>
+  	</div>
+
+	
+	<hr>
+
+	<div class="row">
+    		<div class="col-12">
+    		    <div class="progress progress-bar progress-bar-striped progress-bar-animated mb-2">Loading Model</div>
+    		</div>
+	</div>
+
+        <div class="row">
+	  
+            <div class="col-6">
+                <input id="image-selector" class="form-control form-control-lg  border-0" type="file">
+            </div>
+        </div>
+	
+
+        <hr>
+
+	<div class="row">
+            <div class="col">
+                <button id="predict-button" class="btn btn-dark">Predict</button>
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="row">
+            <div class="col">
+                <h2 class="ml-3">Predictions</h2>
+                <ul id="prediction-list"></ul>
+            </div>
+        </div>
+
+        <hr>
+	
+	<div class="row">
+            <div class="col">
+                <h2 class="ml-3">Recommendations</h2>
+                <ul id="rec"></ul>
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="row">
+            <div class="col-12">
+                <h2 class="ml-3">Image</h2>
+                <img id="selected-image" class="ml-3" src="" />
+            </div>
+        </div>
+		
+    </div>
+	</main>
+	
+	
+	<!-- predict script source -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+	<script src="predict.js"></script>
+  </body>
+</html>
