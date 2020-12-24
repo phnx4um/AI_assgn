@@ -1,11 +1,11 @@
 # AI_assgn
-Artificial Intelligence - hairstyle recommendation system using CNN
+### Artificial Intelligence - hairstyle recommendation system using CNN.
 
-Model was trained to recommend hairstyles based on face shapes.
+- Model was trained to recommend hairstyles based on face shapes.
 
-training_scripts dir contains files to train and save the model.
+- training_scripts dir contains files to train and save the model.
 
-saved model is kept in ui/website/keras_model dir.
+- saved model is kept in ui/website/keras_model dir.
 
-Using index.html, one can input his face image and get a recommendation for hairstyle.
+- Using index.html, one can input his face image and get a recommendation for hairstyle.
 
